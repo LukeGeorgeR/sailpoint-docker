@@ -11,4 +11,5 @@ jobs:
         uses: docker/setup-docker-action@v4
       - name: Setup Python
         uses: actions/setup-python@v5.6.0
-  
+        with:
+          python-version: 3
